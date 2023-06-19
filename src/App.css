@@ -1,7 +1,31 @@
 .App {
-  text-align: center;
+  background-color: black;
+  color: rgb(7, 211, 0);
+  min-height: 100vh;
+  font-family:monospace;
+  
 }
-
+.title {
+  margin: auto;
+  display: block;
+  font-size: 5em;
+}
+.input {
+  margin: auto;
+  display: block;
+}
+.hintbutton {
+  width: 5em;
+  height: 2em;
+}
+.submit {
+  width: 6em;
+  height: 2em;
+}
+.body {
+  padding-left: 3em;
+  padding-top: 3em;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
